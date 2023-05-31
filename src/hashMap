@@ -1,0 +1,4 @@
+hashmap function :-
+put();
+get();
+HashMap<Integer,Strings> map = new HashMap();

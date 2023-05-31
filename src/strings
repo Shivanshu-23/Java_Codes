@@ -1,0 +1,29 @@
+1. We will use the following:-
+    For making array                :>Single quote - Character  'a'
+                                    :>Double quote - Strings   "Annu"
+sc.next(); > Used to get input of only one WORD
+sc.nextline(); > Used to get input of only one sentence
+                                  How to input string ?
+                    [       Scanner sc = new Scanner(System.in);
+                            String name;
+                                    name = sc.next();
+                                    System.out.println(name);       ]
+
+2. Here string_name.lenthof(); it is function
+ // Concatention will also do here
+3. To know the first character of the string :>       .charAt();
+[ Character at  index of 0,1,2,3,4,5,6,7,8,9,10,11]
+Hum function me ishe  use kar sakte hai  - [ char loop = String_name.charAt(index); ]
+4. String substring = "";
+  for (i=start; i<last; i++) {
+  substring += string_name.charAt(i);} // concat string start to last
+  return substring;
+5. str1.compareTo(str2) = used to compare string lexicographic order [ revise 11 ]
+6. String Builder is used to build a string mutable with o(1)
+   StringBuilder s1 = new StringBuilder("hello");
+    [
+      for(char ch ='a' ; ch <= 'z' ; ch++){
+      s1.append(ch);
+      }
+7. Character.toUpperCase(string.charAt(i));
+is used to First character of the string capitalized
